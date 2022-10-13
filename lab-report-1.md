@@ -1,4 +1,4 @@
-# Lab Report: Week 1
+# Lab Report 1
 This tutorial will cover how to log into a course-specific account on `ieng6`.
 ***
 ## Step 1: Installing Visual Studio Code
