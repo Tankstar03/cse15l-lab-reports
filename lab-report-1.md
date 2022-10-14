@@ -70,3 +70,7 @@ Try to use the least amount of keyboard and mouse inputs (1 input counts as hitt
 [Here is a sample](https://imgur.com/sCNPqgO)
 ## Finish
 That's it! You have now finished the tutorial on VS Code setup and ieng6 basics.
+
+[Back to index](https://tankstar03.github.io/cse15l-lab-reports/)
+
+[Back to github](https://github.com/Tankstar03/cse15l-lab-reports)

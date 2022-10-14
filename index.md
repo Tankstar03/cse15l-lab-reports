@@ -24,7 +24,10 @@
 # code block
 System.out.println("Hello World");
 ```
+[View index as a web page](https://tankstar03.github.io/cse15l-lab-reports/)
 
 [Lab Report 0](lab-report-0.md)
+
 [Lab Report 1](lab-report-1.md)
+
 [Lab Report 2](lab-report-2.md)

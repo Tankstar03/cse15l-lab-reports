@@ -162,3 +162,6 @@ public void append(int value) {
     n.next = new Node(value, null);
 }
 ```
+[Back to index](https://tankstar03.github.io/cse15l-lab-reports/)
+
+[Back to github](https://github.com/Tankstar03/cse15l-lab-reports)
