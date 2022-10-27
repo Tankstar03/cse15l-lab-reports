@@ -73,8 +73,13 @@ In the screenshot above, "print" is shown as the path and no query is needed for
 ## ArrayTest: Average Without Lowest
 For the averageWithoutLowest() method, the failure-inducing input was {2, 3, 4, 2, 2}, which should output 2.75 but instead output 1.75.
 ```
-double[] input2 = {2.0, 3.0, 4.0, 2.0, 2.0};
-assertEquals(2.75, ArrayExamplesaverageWithoutLowest(input2), 0.0001);
+@Test
+  public void testAverageWithoutLowest() {
+    double[] input1 = {5.0};
+    assertEquals(0.0, ArrayExamples.averageWithoutLowest(input1), 0.0001);
+    double[] input2 = {2.0, 3.0, 4.0, 2.0, 2.0};
+    assertEquals(2.75, ArrayExamples.averageWithoutLowest(input2), 0.0001);
+  }
 ```
 ![Terminal output](https://imgur.com/ARi9G2r)
 
@@ -115,11 +120,14 @@ static double averageWithoutLowest(double[] arr) {
 ## LinkedListTest: Append
 The failure-inducing input for append() was by appending a 10, 20, and 30 respectively and proceeding to check if the last value in the linked list was a 30. Instead, an infinite loop was found in the terminal.
 ```
-LinkedList tester = new LinkedList();
-tester.append(10);
-tester.append(20);
-tester.append(30);
-assertEquals(30, tester.root.next.next.value);
+@Test
+    public void testAppend() {
+        LinkedList tester = new LinkedList();
+        tester.append(10);
+        tester.append(20);
+        tester.append(30);
+        assertEquals(30, tester.root.next.next.value);
+    }
 ```
 ![Terminal output](https://imgur.com/luyBvP4)
 
