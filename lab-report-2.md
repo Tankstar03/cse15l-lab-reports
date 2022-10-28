@@ -56,17 +56,17 @@ class SearchEngine {
 As seen above, there are 3 types of functions the search engine is capable of performing: `add`, `search`, and `print`.
 
 The `add` function is accessed by typing "add" into the URL as a path. To add a String, enter a query separated by the "=", anything on the right side of the "=" will be added to the list as a String.
-![add](https://imgur.com/vgYFWYc)
+![add](Screenshots\SearchEngine_add.png)
 
 In the screenshot above, "add" is shown as the path and the term being added is "banana". The web page displays a message confirming that the term has been added to the list. In the code, the add function exists inside the large if-statement in the if true condition.
 
 The `search` function is accessed by typing "search" into the URL as a path. To search for a String, like `add`, anything to the right side of the "=" will be considered in the search.
-![search](https://imgur.com/O1Hwsef)
+![search](Screenshots\SearchEngine_search.png)
 
 In the screenshot above, "search" is shown as the path and the search keyword is "a", the search engine is seen returning "apple" and "banana" from the list, as both terms contain the letter "a". In the code, the search function exists inside the large if-statement in the else condition.
 
 The `print` function is accessed by typing "print" into the URL as a path. The output of the function is the whole list of Strings going on display on the web page.
-![print](https://imgur.com/k7lz36G)
+![print](Screenshots\SearchEngine_print.png)
 
 In the screenshot above, "print" is shown as the path and no query is needed for the function to work. The search engine prints out all of the Strings added to the list. In the code, the print function exists inside the large if-statement in the if-else condition.
 ***
@@ -81,7 +81,7 @@ For the averageWithoutLowest() method, the failure-inducing input was {2, 3, 4, 
     assertEquals(2.75, ArrayExamples.averageWithoutLowest(input2), 0.0001);
   }
 ```
-![Terminal output](https://imgur.com/ARi9G2r)
+![terminal_output](Screenshots\ArrayTest_Fail.png)
 
 The bug turned out to be whenever the lowest value in the array was duplicated more than once, it caused the method to remove all the duplicate elements instead of just one. This was fixed by creating a boolean statement that determined whether or not one of the lowest elements was removed. If one is removed, the statement flips from false to true, and then streamlines the remaining elements to all be included in the final calculation.
 
@@ -129,7 +129,7 @@ The failure-inducing input for append() was by appending a 10, 20, and 30 respec
         assertEquals(30, tester.root.next.next.value);
     }
 ```
-![Terminal output](https://imgur.com/luyBvP4)
+![Terminal output](Screenshots\LinkedListTest_Fail.png)
 
 This time, the bug turned out to be in the condition when dealing with appending to a linked list with more than 1 existing element. Inside the while loop, whenever the end was detected, a new node would be added, thus creating the infinite loop. The solution was to move the creation of a new node outside the while loop:
 ```
