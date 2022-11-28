@@ -56,7 +56,7 @@ fi
 ```
 ### Example 1:
 
-![](Screenshots\GradeServer-1.png)
+![image](Screenshots\GradeServer-1.png)
 
 lines 5 and 6 removes the previous submission and clones the next submission respectively. The following if statement then checks to see if the ListExamples.java file is present in the correct repository, which in this case is present, thus the if statement will be true and executes the lines under `then`.
 
@@ -66,11 +66,11 @@ The score is then initiallized to 0 and the standard-output of the file is then 
 
 ### Example 2:
 
-![](Screenshots\GradeServer-2.png)
+![image](Screenshots\GradeServer-2.png)
 
 ### Example 3:
 
-![](Screenshots\GradeServer-3.png)
+![image](Screenshots\GradeServer-3.png)
 
 [Back to index](https://tankstar03.github.io/cse15l-lab-reports/)
 
