@@ -36,4 +36,4 @@ System.out.println("Hello World");
 
 [Lab Report 4](lab-report-4.md)
 
-[Lab Report 5](lab-report-5.html)
+[Lab Report 5](lab-report-5.md)
